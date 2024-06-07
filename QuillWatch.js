@@ -10,6 +10,14 @@ export const QuillWatch = {
             this.watcher[imageExtendId] = ImageExtend
         }
     },
+    offAll: function () {  // 移除所有的编辑器的监听
+        if (!this.watcher) {
+            return;
+        }
+        for (let i in this.watcher) {
+            delete this.watcher[i]
+        }
+    },
     emit: function(activeId) {  // 事件发射触发
         imgHandler()
         this.active = this.watcher[activeId]
