@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NextBoy/quill-image-extend-module.git"
+    "url": "git+https://github.com/woraser/quill-image-extend-module.git"
   },
   "keywords": [
     "quill",
@@ -16,10 +16,10 @@
     "quill-image",
     "drop"
   ],
-  "author": "nextboy",
+  "author": "chenhui",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NextBoy/quill-image-extend-module/issues"
+    "url": "https://github.com/woraser/quill-image-extend-module"
   },
-  "homepage": "https://github.com/NextBoy/quill-image-extend-module#readme"
+  "homepage": "https://github.com/woraser/quill-image-extend-module#readme"
 }
